@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<script>
+    let tong = "<table border='1' width='1000' cellpadding='2' cellspasing='0' >";
+    for (let i=1;i<10;i++){
+        tong+="<tr>";
+        for (let j=2;j<10;j++){
+            tong+="<td>"+j+"x"+i+"="+i*j+"</td>";
+        }
+        tong+="</tr>";
+    }
+    tong+="</table>";
+    document.write(tong);
+</script>
+</body>
+</html>
